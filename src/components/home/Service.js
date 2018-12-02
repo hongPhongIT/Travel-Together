@@ -9,7 +9,7 @@ const Service = () => {
                     <div className="col-md-4 col-sm-4">
                         <div className="single-service-box">
                             <div className="service-img">
-                                <img src="%PUBLIC_URL%/assets/images/service/s1.png" alt="service-icon" />
+                                <img src="https://hongphongit.github.io/Travel-Together/assets/images/service/s1.png" alt="service-icon" />
                             </div>{/*/.service-img*/}
                             <div className="service-content">
                                 <h2>
@@ -24,7 +24,7 @@ const Service = () => {
                     <div className="col-md-4 col-sm-4">
                         <div className="single-service-box">
                             <div className="service-img">
-                                <img src="%PUBLIC_URL%/assets/images/service/s2.png" alt="service-icon" />
+                                <img src="https://hongphongit.github.io/Travel-Together/assets/images/service/s2.png" alt="service-icon" />
                             </div>{/*/.service-img*/}
                             <div className="service-content">
                                 <h2>
@@ -39,7 +39,7 @@ const Service = () => {
                     <div className="col-md-4 col-sm-4">
                         <div className="single-service-box">
                             <div className="statistics-img">
-                                <img src="%PUBLIC_URL%/assets/images/service/s3.png" alt="service-icon" />
+                                <img src="https://hongphongit.github.io/Travel-Together/assets/images/service/s3.png" alt="service-icon" />
                             </div>{/*/.service-img*/}
                             <div className="service-content">
                                 <h2>
