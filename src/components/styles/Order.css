@@ -1,0 +1,233 @@
+
+#bookPage {
+  /*margin-top: 30px;*/
+}
+
+#bookPage .bookTitle {
+  overflow: hidden;
+}
+
+#bookPage .bookTitle ul {
+  list-style: none;
+}
+
+#bookPage .bookTitle ul li {
+  background: #e0dedf;
+  float: left;
+  padding: 5px 30px 5px 60px;
+  position: relative;
+}
+
+@media screen and (max-width: 639px) {
+  #bookPage .bookTitle ul li {
+    background: transparent;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #bookPage .bookTitle ul li + li {
+    margin-left: 15px;
+  }
+}
+
+#bookPage .bookTitle ul li:after {
+  background: #e0dedf;
+  border: 10px solid transparent;
+  border-right-color: #fff;
+  border-top-color: #fff;
+  content: '';
+  height: 40px;
+  position: absolute;
+  right: -20px;
+  top: -6px;
+  width: 40px;
+  z-index: 1;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+@media screen and (max-width: 639px) {
+  #bookPage .bookTitle ul li:after {
+    display: none;
+  }
+}
+
+#bookPage .bookTitle ul li.active {
+  background: #a7a8ad;
+  color: #fff;
+}
+
+@media screen and (max-width: 639px) {
+  #bookPage .bookTitle ul li.active {
+    background: none;
+    color: #333;
+  }
+}
+
+#bookPage .bookTitle ul li.active:after {
+  background: #a7a8ad;
+}
+
+#bookPage .bookTitle ul li:first-child {
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 639px) {
+  #bookPage .bookTitle ul li:first-child {
+    padding-left: 0;
+  }
+}
+
+#bookPage .header {
+  border-bottom: 1px solid #a7a8ad;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#bookPage .header span {
+  background: #a7a8ad;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  padding: 7px 10px 5px;
+}
+
+#bookPage table {
+  width: 100%;
+}
+
+#bookPage table td, #bookPage table th {
+  padding: 10px 10px 8px;
+}
+
+@media screen and (max-width: 979px) {
+  #bookPage table td, #bookPage table th {
+    padding: 5px;
+  }
+}
+
+#bookPage table th {
+  background: #e0dedf;
+  border: 1px solid #e0dedf;
+}
+
+#bookPage table td {
+  border: 1px solid #e0dedf;
+}
+
+#bookPage table input, #bookPage table select {
+  border: 1px solid #eee;
+  padding: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  #bookPage table input, #bookPage table select {
+    padding: 0;
+  }
+}
+
+#bookPage table input[type="number"] {
+  max-width: 50px;
+}
+
+#bookPage table input.dob {
+  max-width: 100px;
+}
+
+@media screen and (max-width: 979px) {
+  #bookPage table input.dob {
+    max-width: 70px;
+  }
+}
+
+@media screen and (max-width: 979px) {
+  #bookPage table input.name, #bookPage table input.address {
+    max-width: 100px;
+  }
+}
+
+#bookPage .form-group .row > div[class^="col-"] {
+  margin-bottom: 15px;
+}
+
+#bookPage .form-group label {
+  float: left;
+  font-weight: normal;
+  margin-bottom: 0;
+  margin-top: 5px;
+  width: 30%;
+}
+
+#bookPage .form-group input, #bookPage .form-group textarea {
+  border: 1px solid #ddd;
+  float: left;
+  padding: 5px;
+  width: 70%;
+}
+
+#bookPage .form-group textarea {
+  min-height: 100px;
+}
+
+#bookPage .customForm input {
+  max-width: 50px;
+}
+
+#bookPage .customForm label {
+  margin-right: 15px;
+  width: auto;
+}
+
+#bookPage .customForm ul {
+  list-style: none;
+}
+
+#bookPage .customForm ul li {
+  float: left;
+}
+
+#bookPage .customForm ul li + li {
+  margin-left: 15px;
+}
+
+#bookPage .payBox label {
+  font-weight: normal;
+  width: 100%;
+}
+
+#bookPage .payBox label input {
+  float: left;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+#bookPage .rulesBook {
+  margin-bottom: 15px;
+}
+
+#bookPage .rulesBook label {
+  font-weight: normal;
+}
+
+#bookPage .rulesBook label input {
+  float: left;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+#bookPage .rulesBookContent {
+  margin-bottom: 15px;
+  max-height: 300px;
+  overflow-x: auto;
+}
+
+#bookPage input[type="submit"] {
+  background: #0072bb;
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+}
